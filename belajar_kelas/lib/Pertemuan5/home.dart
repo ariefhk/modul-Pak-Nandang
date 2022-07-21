@@ -1,3 +1,4 @@
+import 'package:belajar_kelas/Pertemuan5/bahasa.dart';
 import 'package:belajar_kelas/Pertemuan5/jenisKelamin.dart';
 import 'package:belajar_kelas/Pertemuan5/statusPernikahan.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text('Form and Controller'),
       ),
       body: Column(
-        children: [JenisKelamin(), StatusPernikahan()],
+        children: [JenisKelamin(), StatusPernikahan(),
+        Bahasa()
+        ],
       ),
     );
   }
